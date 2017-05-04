@@ -1,0 +1,91 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Arimo', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Oxygen', sans-serif;*/
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #eceff1;
+}
+
+nav {
+  padding: 1% 15% 5% 15%;
+  font-family: 'Oxygen', sans-serif;
+  margin-bottom:1%;
+}
+
+#nav-mobile a {
+  font-size: 1.6rem;
+}
+
+main {
+  flex: 1 0 auto;
+  font-family: 'Rubik', sans-serif;
+}
+
+footer {
+font-family: 'Oxygen', sans-serif;
+}
+footer a{
+  color: white;
+}
+footer a:hover
+{
+  color: black;
+}
+.home{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+}
+.service{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.1rem;
+  margin-top:5%;
+}
+.service li{
+  list-style:disc !important;
+}
+.contact{
+  margin-top: 5%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.6rem;
+}
+.about{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.2rem;
+}
+.contact a{
+  color: black;
+}
+.contact a:hover
+{
+  color: blue;
+}
+
+.ng-enter {
+  transition:0.5s linear all;
+  opacity:0;
+  transform:translateX(-100%);
+}
+
+.ng-enter.ng-enter-active {
+  opacity:1;
+  transform:translateX(0);
+}
+
+.ng-enter-stagger, .ng-leave-stagger {
+  transition-delay: 0.2s;
+  transition-duration:0;
+}
